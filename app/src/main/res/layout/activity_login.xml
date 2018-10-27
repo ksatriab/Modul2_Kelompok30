@@ -21,7 +21,7 @@
             android:layout_marginEnd="121dp"
             android:layout_marginBottom="5dp"
             android:contentDescription="LOGO"
-            android:src="@drawable/logolab"
+            android:src="@drawable/wall2"
             app:layout_constraintBottom_toTopOf="@+id/appCompatTextView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

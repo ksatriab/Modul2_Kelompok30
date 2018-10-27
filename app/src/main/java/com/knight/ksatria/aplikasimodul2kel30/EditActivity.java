@@ -32,6 +32,13 @@ public class EditActivity extends AppCompatActivity {
         initUser();
     }
 
+    @Override
+    public void onBackPressed() {
+        Intent main = new Intent(this, MainActivity.class);
+        startActivity(main);
+        finish(); }
+
+
     private void initView() {
         etUserAbout = findViewById(R.id.etUserAbout);
         etPassAbout = findViewById(R.id.etPassAbout);

@@ -4,10 +4,14 @@
     android:layout_height="match_parent" >
 
     <ImageView
-        android:src="@drawable/splashscreen"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:scaleType="fitXY"/>
+        android:layout_width="234dp"
+        android:layout_height="98dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="175dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/wall2" />
 
     <ProgressBar
         android:id="@+id/progressBar1"
